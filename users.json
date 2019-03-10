@@ -1,27 +1,27 @@
 [
   {
-    "id":1,
-    "name":"John",
-    "email":"John@gmail.com"
+    "id": 1,
+    "name": "John",
+    "email": "John@gmail.com"
   },
   {
-    "id":2,
-    "name":"Bob",
-    "email":"Bob@gmail.com"
+    "id": 2,
+    "name": "Bob",
+    "email": "Bob@gmail.com"
   },
   {
-    "id":3,
-    "name":"Beavis",
-    "email":"Beavis@gmail.com"
+    "id": 3,
+    "name": "Beavis",
+    "email": "Beavis@gmail.com"
   },
   {
-    "id":4,
-    "name":"Betty",
-    "email":"Betty@gmail.com"
+    "id": 4,
+    "name": "Betty",
+    "email": "Betty@gmail.com"
   },
   {
-    "id":5,
-    "name":"Tracy",
-    "email":"Tracy@gmail.com"
+    "id": 5,
+    "name": "Tracy",
+    "email": "Tracy@gmail.com"
   }
 ]

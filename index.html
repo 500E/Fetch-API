@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fetch API</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="buttons">
-            <button id="getText">Get Text</button>
-            <button id="getUsers">Get JSON</button>
-            <button id="getPosts">Get API DATA</button>
+      <div class="buttons">
+        <button id="getText">Get Text</button>
+        <button id="getUsers">Get JSON</button>
+        <button id="getPosts">Get API DATA</button>
+      </div>
+
+      <hr />
+      <div id="output"></div>
+      <form id="addPost">
+        <div>
+          <input
+            type="text"
+            id="title"
+            placeholder="title"
+            class="title-input"
+          />
         </div>
-        
-        <hr>
-        <div id="output"></div>
-        <form id="addPost">
-            <div>
-                <input type="text" id="title" placeholder="title" class="title-input">
-            </div>
-            <div>
-                <textarea id="body" placeholder="Body" class="textarea"></textarea>
-            </div>
-            <input type="submit" value="Submit" class="submit-input">
-        </form>
+        <div>
+          <textarea id="body" placeholder="Body" class="textarea"></textarea>
+        </div>
+        <input type="submit" value="Submit" class="submit-input" />
+      </form>
     </div>
-    <script src="main.js">  
-    </script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>

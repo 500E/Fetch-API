@@ -1,87 +1,85 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-    background-color: rgba(33, 150, 243, 0.18);
+body {
+  background-color: rgba(33, 150, 243, 0.18);
 }
 
-div.buttons{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2em;
-    padding: 0.5em;
+div.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  padding: 0.5em;
 }
 
-div.container{
-    margin:4rem 1rem;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    background-color: lightskyblue;
-    border-radius: 0.5rem;
-    
+div.container {
+  margin: 4rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  background-color: lightskyblue;
+  border-radius: 0.5rem;
 }
 
-button{
-    border:none;
-    border-radius: 0.3rem;
-    padding: 0.5rem;
-    color:white;
-    
+button {
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: white;
 }
 
-form{
-    padding: 1em;
-    background-color: rgba(255, 235, 59, 0.73);
-    margin-top: 1rem;
-    border-radius: 0.3rem;
+form {
+  padding: 1em;
+  background-color: rgba(255, 235, 59, 0.73);
+  margin-top: 1rem;
+  border-radius: 0.3rem;
 }
 
-input.submit-input{
-    padding:0.3em;
-    width: 30%;
-    margin:0.5em auto;
-    display:block;
-    border-radius: 0.3em;
-    border:none;
-    background-color: lawngreen;
-    color:white;
+input.submit-input {
+  padding: 0.3em;
+  width: 30%;
+  margin: 0.5em auto;
+  display: block;
+  border-radius: 0.3em;
+  border: none;
+  background-color: lawngreen;
+  color: white;
 }
 
-input.title-input{
-    border:none;
-    margin:0.5em auto;
-    width:60%;
-    padding: 0.5em;
-    display:block;
-    border-radius: 0.3em;
+input.title-input {
+  border: none;
+  margin: 0.5em auto;
+  width: 60%;
+  padding: 0.5em;
+  display: block;
+  border-radius: 0.3em;
 }
 
-textarea.textarea{
-    border: none;
-    border-radius: 0.3em;
-    margin:0.5em auto;
-    width:60%;
-    padding: 0.5em;
-    display:block;
+textarea.textarea {
+  border: none;
+  border-radius: 0.3em;
+  margin: 0.5em auto;
+  width: 60%;
+  padding: 0.5em;
+  display: block;
 }
 
-ul li{
-    list-style-type: none;
+ul li {
+  list-style-type: none;
 }
 
-button#getText{
-    background-color: tomato;
+button#getText {
+  background-color: tomato;
 }
 
-button#getUsers{
-    background-color: gold;
+button#getUsers {
+  background-color: gold;
 }
 
-button#getPosts{
-    background-color: rgb(103, 65, 240);
+button#getPosts {
+  background-color: rgb(103, 65, 240);
 }
